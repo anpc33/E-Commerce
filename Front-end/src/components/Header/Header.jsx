@@ -17,7 +17,9 @@ function Header() {
       </Box>
 
       {/* ===== Header main ===== */}
-      <Box className='header--main'></Box>
+      <Box className='header--main'>
+        <Box className=''></Box>
+      </Box>
     </header>
   )
 }
