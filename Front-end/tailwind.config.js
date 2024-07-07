@@ -4,7 +4,8 @@ export default {
     './index.html',
     './src/**/*.{html,js,ts,jsx,tsx}',
     './pages/**/*.{html,js,ts,jsx,tsx}',
-    './components/**/*.{html,js,ts,jsx,tsx}'
+    './components/**/*.{html,js,ts,jsx,tsx}',
+    'node_modules/flowbite-react/lib/esm/**/*.js'
   ],
   theme: {
     extend: {
@@ -19,6 +20,7 @@ export default {
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/container-queries'),
-  ],
+    require('flowbite/plugin')
+  ]
 }
 

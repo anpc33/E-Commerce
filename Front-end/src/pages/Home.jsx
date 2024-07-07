@@ -5,7 +5,7 @@ import Footer from '~/components/Footer'
 
 function Home() {
   return (
-    <article className="w-[calc(100%-246px)] rounded-lg">
+    <article className="w-full md:w-[calc(100%-246px)] rounded-lg">
       {/* flex flex-shrink flex-grow basis-0 rounded-lg */}
       <div className="flex flex-col gap-3">
         <Slider />

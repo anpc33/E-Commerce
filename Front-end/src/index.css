@@ -21,4 +21,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  .detailrd-layout {
+    display: grid;
+    grid-template-columns: 400px 1fr 360px;
+    gap: 24px;
+  }
 }

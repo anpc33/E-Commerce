@@ -15,8 +15,8 @@ function Header() {
           {/* ====== Logo ====== */}
           <section>
             <a href="#" className="flex flex-col items-center">
-              <img className="h-10" src="https://salt.tikicdn.com/ts/upload/0e/07/78/ee828743c9afa9792cf20d75995e134e.png" alt="" />
-              <span className="text-sm mt-2 font-semibold text-[#003ea1]">Tốt & Nhanh</span>
+              <img className="h-6 xl:h-10" src="https://salt.tikicdn.com/ts/upload/0e/07/78/ee828743c9afa9792cf20d75995e134e.png" alt="" />
+              <span className="text-xs xl:text-sm mt-2 font-semibold text-[#003ea1]">Tốt & Nhanh</span>
             </a>
           </section>
 
@@ -82,7 +82,7 @@ function Header() {
                   </section>
                 </div>
 
-                <div className="flex items-center gap-1">
+                <div className="hidden lg:flex items-center gap-1">
 
                   {/* ===== Home ===== */}
                   <div className="flex items-center gap-1 px-4 py-2 rounded-lg cursor-pointer hover:bg-[#0060ff1f]">
@@ -106,7 +106,7 @@ function Header() {
                 </div>
               </div>
 
-              <div className=" flex items-center justify-between">
+              <div className="hidden lg:flex lg:items-center lg:justify-between">
                 <nav className="flex items-center gap-3 text-sm text-[#808089]">
                   <a href="">điện gia dụng</a>
                   <a href="">điện gia dụng</a>
