@@ -15,8 +15,9 @@ export default {
     screens: {
       sm: '480px',
       md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1440px',
     },
   },
   plugins: [
@@ -38,6 +39,9 @@ export default {
           },
           ".txt-secondary": {
             "color": "rgb(10, 104, 255)"
+          },
+          ".txt-secondary-hv": {
+            "color": "rgba(10, 104, 255, 0.2)"
           },
           ".txt-fourth": {
             "color": "rgb(128, 128, 137)"

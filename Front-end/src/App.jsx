@@ -1,10 +1,11 @@
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-      <div className="container mx-auto px-6" data-theme="light">
-        <button className="btn">Button</button>
+      <div className="" data-theme="light">
+        <Header />
       </div>
     </>
   )
