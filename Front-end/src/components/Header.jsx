@@ -52,7 +52,7 @@ function Header() {
                     <div className="divider divider-horizontal w-0 m-0 py-2"></div>
                     <button
                       type="submit"
-                      className="h-9 lg:w-[92px] px-2 cursor-pointer rounded-r-lg p-1 text-sm text-[#0a68ff] hover:bg-[#0a68ff33]"
+                      className="h-9 lg:w-[92px] px-2 cursor-pointer rounded-r-lg p-1 text-sm txt-secondary hover:bg-[#0a68ff33]"
                     >
                       Tìm kiếm
                     </button>
@@ -104,7 +104,7 @@ function Header() {
                       </nav>
 
                       {/* Show more */}
-                      <div className="mt-2 flex cursor-pointer items-center justify-center gap-2 px-4 py-2 text-xs text-[#0d5cb6]">
+                      <div className="mt-2 flex cursor-pointer items-center justify-center gap-2 px-4 py-2 text-xs txt-secondary">
                         Xem thêm
                         <svg
                           width="6"
@@ -146,7 +146,7 @@ function Header() {
 
                   {/* ===== Cart ===== */}
                   <div className="indicator">
-                    <span className="indicator-item badge badge-secondary text-[10px] lg:text-xs font-bold text-[#ffffff] bg-[#ff424f]">10</span>
+                    <span className="indicator-item badge badge-secondary text-[10px] lg:text-xs font-bold text-white bg-[#ff424f]">10</span>
                     <a href="" className="block lg:pl-6 lg:border-l-2">
                       <img className="h-6 w-6" src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="" />
                     </a>

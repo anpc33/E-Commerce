@@ -10,6 +10,9 @@ export default {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif']
+      },
+      colors: {
+        'primary-muted': 'oklch(var(--primary-muted) / <alpha-value>)'
       }
     },
     screens: {
@@ -46,8 +49,9 @@ export default {
           ".txt-fourth": {
             "color": "rgb(128, 128, 137)"
           },
+          "--primary-muted": "65% 0.2 295",
           primary: "rgb(255, 255, 255)",
-          secondary: "#efefef"
+          secondary: "#efefef",
         },
       },
     ],
