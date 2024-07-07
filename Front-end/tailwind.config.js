@@ -11,7 +11,13 @@ export default {
       fontFamily: {
         inter: ['Inter', 'sans-serif']
       }
-    }
+    },
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
@@ -20,7 +26,27 @@ export default {
     require('daisyui')
   ],
   daisyui: {
-    themes: false, // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          ".txt-primary": {
+            "color": "rgb(39, 39, 42)"
+          },
+          ".txt-third": {
+            "color": "rgb(255, 66, 78)"
+          },
+          ".txt-secondary": {
+            "color": "rgb(10, 104, 255)"
+          },
+          ".txt-fourth": {
+            "color": "rgb(128, 128, 137)"
+          },
+          primary: "rgb(255, 255, 255)",
+          secondary: "#efefef"
+        },
+      },
+    ],
     darkTheme: "light", // name of one of the included themes for dark mode
     base: true, // applies background color and foreground color for root element by default
     styled: true, // include daisyUI colors and design decisions for all components
