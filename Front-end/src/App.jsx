@@ -1,3 +1,4 @@
+import BottomNav from './components/BottomNav'
 import Header from './components/Header'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <div className="" data-theme="light">
         <Header />
+        <BottomNav />
       </div>
     </>
   )

@@ -23,4 +23,11 @@
     box-shadow: none;
     border-color: unset !important;
   }
+
+  .badge {
+    padding: 0 4px;
+  }
+  .indicator :where(.indicator-item) {
+    top: -5px;
+  }
 }

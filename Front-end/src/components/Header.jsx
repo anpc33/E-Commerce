@@ -9,8 +9,8 @@ function Header() {
 
   return (
     <header className="bg-primary">
-      <div className="container mx-auto px-4 lg:px-6 py-2">
-        <div className="flex items-center gap-12">
+      <div className="container mx-auto px-4 lg:px-6 py-4 lg:py-2">
+        <div className="flex items-center gap-6 lg:gap-12">
           {/* logo */}
           <section className='hidden md:block'>
             <a className="link flex flex-col items-center gap-2 no-underline">
@@ -28,7 +28,7 @@ function Header() {
           {/* main */}
           <section className="flex-1">
             <div className="w-full flex flex-col gap-2">
-              <section className="w-full flex lg:gap-12">
+              <section className="w-full flex gap-4 lg:gap-12">
                 {/* search */}
                 <section className="relative flex flex-shrink flex-grow basis-0 rounded-lg border border-[#dddde3]">
                   <form
@@ -52,7 +52,7 @@ function Header() {
                     <div className="divider divider-horizontal w-0 m-0 py-2"></div>
                     <button
                       type="submit"
-                      className="h-9 w-[92px] cursor-pointer rounded-r-lg p-1 text-sm text-[#0a68ff] hover:bg-[#0a68ff33]"
+                      className="h-9 lg:w-[92px] px-2 cursor-pointer rounded-r-lg p-1 text-sm text-[#0a68ff] hover:bg-[#0a68ff33]"
                     >
                       Tìm kiếm
                     </button>
@@ -131,25 +131,25 @@ function Header() {
                 </section>
 
                 {/* option more */}
-                <section className="hidden lg:flex items-center gap-1">
+                <section className="flex items-center gap-1">
                   {/* ===== Home ===== */}
-                  <div className="flex items-center gap-1 px-4 py-2 rounded-lg cursor-pointer hover:bg-[#0060ff1f]">
+                  <div className="hidden lg:flex items-center gap-1 px-4 py-2 rounded-lg cursor-pointer hover:bg-[#0060ff1f]">
                     <img className="h-6 w-6" src="https://salt.tikicdn.com/ts/upload/32/56/db/d919a4fea46f498b5f4708986d82009d.png" alt="" />
                     <span className="text-sm font-medium text-[#0a68ff]">Trang chủ</span>
                   </div>
 
                   {/* ===== Account ===== */}
-                  <div className="flex items-center gap-1 px-4 py-2 rounded-lg cursor-pointer hover:bg-[#27272a1f]">
+                  <div className="hidden lg:flex items-center gap-1 px-4 py-2 rounded-lg cursor-pointer hover:bg-[#27272a1f]">
                     <img className="h-6 w-6" src="https://salt.tikicdn.com/ts/upload/07/d5/94/d7b6a3bd7d57d37ef6e437aa0de4821b.png" alt="" />
                     <span className="text-sm text-[#808089]">Tài khoản</span>
                   </div>
 
                   {/* ===== Cart ===== */}
-                  <div className="relative">
-                    <a href="" className="block pl-6 border-l-2">
+                  <div className="indicator">
+                    <span className="indicator-item badge badge-secondary text-[10px] lg:text-xs font-bold text-[#ffffff] bg-[#ff424f]">10</span>
+                    <a href="" className="block lg:pl-6 lg:border-l-2">
                       <img className="h-6 w-6" src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="" />
                     </a>
-                    <span className="absolute -top-1/2 -right-2 h-4 w-4 text-center rounded-lg flex items-center justify-center text-xs font-bold text-[#ffffff] bg-[#ff424f]">0</span>
                   </div>
                 </section>
               </section>
