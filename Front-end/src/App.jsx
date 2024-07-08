@@ -8,6 +8,7 @@ function App() {
       <div className="" data-theme="light">
         <Header />
         <BottomNav />
+        <BottomNav />
       </div>
     </>
   )
