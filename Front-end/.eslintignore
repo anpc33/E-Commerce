@@ -1,3 +1,7 @@
 node_modules
+tailwind.config.js
 src/serviceWorker.js
 src/reportWebVitals.js
+
+src/fetch-data/QuickLinksData.js
+src/fetch-data/SidebarData.js
